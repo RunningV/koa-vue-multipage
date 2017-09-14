@@ -1,0 +1,77 @@
+@import '../variable.scss';
+html,body {
+  height:100%;
+}
+.page-setting {
+  padding-top: 1.48rem;
+  background-color: #f3f3f3;
+  height: 100%;
+}
+.page-register {
+  .body-p33 { padding:0 34*$base 52*$base; background-color:#fff; }
+  .mu-text-field.has-label {
+    width:100%;
+    margin-bottom:0;
+    min-height: auto;
+  }
+  .mu-text-field.has-label .mu-text-field-content {
+    width:100%;
+    padding-bottom:0;
+  }
+  .protocol { margin-top: 52*$base; line-height: 1; color:#193ec5; font-size:25*$base; }
+
+  .xzs-btn-col-100 { margin:11*$base 0; height:97*$base; line-height:97*$base; text-align: center; font-size:33*$base; color:#333; background:#fff; border-radius:48*$base; }
+  .xzs-btn-col-100.red { color:#d0000f; }
+  .footer { padding: 40*$base 34*$base;
+    .xzs-btn-col-100 { width:100%; max-width:100%; }
+  }
+  .sms-code {
+    display: flex;
+    justify-content: space-between;
+    .sms-text {
+      width:400*$base;
+    }
+    .sms-btn {
+      text-align: center;
+      width:280*$base;
+      .mu-flat-button {
+        margin-top: 15px;
+      }
+    }
+  }
+  .mu-text-field-label { color: #d0000f; }
+  .mu-text-field-focus-line { background-color: #d0000f; }
+
+  .page-register-success { 
+    height:100%; background:#fff;
+    position: fixed; top:0; left:0; right:0; bottom:0; z-index: 10;
+    .header {
+      .mu-appbar {
+        background-color: #fff; box-shadow: none;
+      }
+    }
+    .body {
+      text-align: center;
+      h3 {
+        margin-top:236*$base; text-align: center; 
+        font-size:39*$base; color: #333; font-weight: bold;
+      }
+      .info {
+        font-size: 25*$base; color: #8e8e8e; padding:52*$base 72*$base 0;
+      }
+      div {
+        margin-top:170*$base;
+        text-align: center;
+        a { display: inline-block; font-size:36*$base; width:216*$base; height:70*$base; line-height:70*$base; border-radius:34*$base; color: #333; text-align: center; border:1px solid #8e8e8e; }
+        a.red { color: #d7000f; border-color:#d7000f; }
+        span {
+          line-height: 70*$base;
+          font-size:29*$base;
+          color: #333;
+          margin: 0 28*$base;
+        }
+      }
+      .jump { margin-top:136*$base; color: #333; font-size:25*$base; padding:0; }
+    }
+  }
+}

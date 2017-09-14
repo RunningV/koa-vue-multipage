@@ -1,0 +1,54 @@
+$base: 0.01rem;
+$baseIcon: (750/1080)*$base;
+/*color variable*/
+/*四种全局色*/
+$color-base-red: #d7000f;
+$color-base-orange: #f39800;
+$color-base-blue: #576298;
+$color-base-white: #fff;
+/*背景色*/
+$color-bg-gray: #f3f3f3;
+/*图标用色*/
+$color-icon-01: #bbb;
+$color-icon-02: #231f20;
+$color-icon-03: #a8c08c;
+$color-icon-04: #62e6a1;
+$color-icon-05: #fbb845;
+$color-icon-06: #78b8fe;
+/*文字用色*/
+$color-font-01: #333;
+$color-font-02: #f39800;
+$color-font-03: #d7000f;
+$color-font-04: #576298;
+$color-font-05: #8e8e8e;
+/*分割线用色*/
+$color-line-01: #ebebeb;
+$color-line-02: #e1e1e1;
+$color-line-03: #dedfe0;
+/* 字体大小 */
+$size-58: 58 * $base;
+$size-48: 48 * $base;
+$size-46: 46 * $base;
+$size-42: 42 * $base;
+$size-38: 38 * $base;
+$size-32: 32 * $base;
+$size-30: 30 * $base;
+$size-28: 28 * $base;
+$size-25: 25 * $base;
+/*
+* z-index说明
+* header& && footer 50;其上的z-index 50多，以50为分界
+*/
+
+/* flex 兼容性 */
+@mixin flex($jc){
+  display: -webkit-flex;
+  -webkit-box-pack: $jc;
+  -webkit-justify-content: $jc;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  display: flex;
+  justify-content: $jc;
+  align-items: center;
+}
+

@@ -1,0 +1,263 @@
+/*icon及公共样式*/
+.xzs-icon-p33 {
+  padding:0 34*$base;
+}
+.xzs-icon i {
+  background-repeat: no-repeat; background-position: center center;
+}
+.xzs-eye{
+  background:url("../img/xzs_eye.png") no-repeat;
+  background-size:contain;
+}
+.xzs-eye-white{
+  background:url("../img/xzs_eye_white.png") no-repeat;
+  background-size:contain;
+}
+.xzs-like{
+  background:url("../img/xzs_like.png") no-repeat;
+  background-size: contain;
+}
+.xzs-like-active{
+  background:url("../img/xzs_like_active.png") no-repeat;
+  background-size: contain;
+}
+.xzs-comment{
+  background:url("../img/xzs_sms.png") no-repeat;
+  background-size: contain;
+}
+.xzs-share{
+  background:url("../img/xzs_share.png") no-repeat;
+  background-size: contain;
+}
+.xzs-right-arrow{
+  background:url("../img/xzs_right_arrow.png") no-repeat;
+  background-size: contain;
+}
+.xzs-arrow-down{
+  background:url("../img/xzs_arrow_down.png") no-repeat;
+  background-size: contain;
+}
+.xzs-video{
+  background:url("../img/xzs_video.png") no-repeat;
+  background-size: contain;
+}
+.xzs-red-close{
+  background:url("../img/xzs_red_x.png") no-repeat;
+  background-size: contain;
+}
+.xzs-red-list{
+  background:url("../img/xzs_list_red.png") no-repeat;
+  background-size: contain;
+}
+.xzs-arrow-back{
+  background:url("../img/xzs_arrow_left_red.png") no-repeat;
+  background-size: contain;
+}
+.xzs-arrow-back-black{
+  background:url("../img/xzs_arrow_left_black.png") no-repeat;
+  background-size: contain;
+}
+.xzs-link-arrow {
+  background:url("../img/xzs_arror_right_gray.png") no-repeat;
+  background-size:contain;
+}
+.xzs-thumb-up {
+  background:url("../img/xzs_thumb_up.png") no-repeat;
+  background-size:contain;
+}
+.xzs-sms {
+  background:url("../img/xzs_sms.png") no-repeat;
+  background-size:contain;
+}
+.xzs-star {
+  background:url("../img/xzs_star.png") no-repeat;
+  background-size:contain;
+}
+.xzs-more-horiz {
+  background:url("../img/xzs_more_horiz.png") no-repeat;
+  background-size:contain;
+}
+.xzs-clear-gray {
+  background:url("../img/xzs_clear_gray.png") no-repeat;
+  background-size:contain;
+}
+.xzs-clear-red {
+  background:url("../img/xzs_clear_red.png") no-repeat;
+  background-size:contain;
+}
+.xzs-tick {
+  background:url("../img/xzs_tick.png") no-repeat;
+  background-size:contain;
+}
+.xzs-done-gray {
+  background:url("../img/xzs_done_gray.png") no-repeat;
+  background-size:contain;
+}
+.xzs-done-green {
+  background:url("../img/xzs_done_green.png") no-repeat;
+  background-size:contain;
+}
+.xzs-person-outline {
+  background:url("../img/xzs_person_outline.png") no-repeat;
+  background-size:contain;
+}
+.xzs-delete-white {
+  background:url("../img/xzs_delete_white.png") no-repeat;
+  background-size:contain;
+}
+.xzs-filter {
+  background:url("../img/xzs_filter.png") no-repeat;
+  background-size:contain;
+}
+.xzs-userinfo-bg {
+  background:url("../img/xzs_userinfo_bg.jpg") no-repeat;
+  background-size:contain;
+}
+.xzs-shareicon.xzs-share-circle {
+  background:url("../img/xzs_share_circle.png") no-repeat;
+  background-size:contain;
+}
+.xzs-shareicon.xzs-share-qq {
+  background:url("../img/xzs_share_qq.png") no-repeat;
+  background-size:contain;
+}
+.xzs-shareicon.xzs-share-wechat {
+  background:url("../img/xzs_share_wechat.png") no-repeat;
+  background-size:contain;
+}
+.xzs-shareicon.xzs-share-weibo {
+  background:url("../img/xzs_share_weibo.png") no-repeat;
+  background-size:contain;
+}
+.xzs-shareicon.xzs-modify {
+  background:url("../img/xzs_modify.png") no-repeat;
+  background-size:contain;
+}
+.xzs-shareicon.xzs-photo {
+  background:url("../img/xzs_photo.png") no-repeat;
+  background-size:contain;
+}
+.xzs-shareicon.xzs-delete {
+  background:url("../img/xzs_delete.png") no-repeat;
+  background-size:contain;
+}
+/*热门*/
+.xzs-duty-conduct{
+  background:url("../img/icon01/icon-hot-01.png") no-repeat;
+  background-size: contain;
+}
+.xzs-work-point{
+  background:url("../img/icon01/icon-hot-02.png") no-repeat;
+  background-size: contain;
+}
+.xzs-my-home{
+  background:url("../img/icon01/icon-hot-03.png") no-repeat;
+  background-size: contain;
+}
+.xzs-icon .xzs-arrow-back,.xzs-icon .xzs-arrow-back-black {
+  width: 46*$baseIcon; height: 56*$baseIcon;
+}
+.xzs-icon .xzs-thumb-up {
+  width: 56*$baseIcon; height: 56*$baseIcon;
+}
+.xzs-icon .xzs-sms {
+  width: 56*$baseIcon; height: 56*$baseIcon;
+}
+.xzs-icon .xzs-star {
+  width: 56*$baseIcon; height: 56*$baseIcon;
+}
+.xzs-icon .xzs-more-horiz {
+  width: 52*$baseIcon; height: 12*$baseIcon;
+}
+.xzs-icon .xzs-clear-gray {
+  width: 49*$baseIcon; height: 48*$baseIcon;
+}
+.xzs-icon .xzs-eye {
+  width: 50*$baseIcon; height: 50*$baseIcon;
+}
+.xzs-icon .xzs-link-arrow {
+  width: 39*$baseIcon; height: 39*$baseIcon;
+}
+.xzs-icon .xzs-tick {
+  width: 40*$baseIcon; height: 40*$baseIcon;
+}
+.xzs-icon .xzs-red-close {
+  width: 49*$base; height: 48*$base;
+}
+.xzs-shareicon {
+  width: 155*$baseIcon; height: 155*$baseIcon;
+}
+
+/*公共组件样式*/
+.xzs-chip {
+  height:44*$base;
+  line-height: 44*$base;
+  border:1px solid #ebebeb;
+  margin-right:10*$base;
+  background-color:#fff;
+  color:$color-font-05;
+  font-size:22*$base;
+  margin-bottom:20*$base;
+}
+
+.xzs-chip.large {
+  height:54*$base;
+  line-height: 54*$base;
+}
+
+.xzs-chip.on {
+  color: #d0000f; border-color:#d0000f;
+}
+
+.xzs-userinfo {
+  display: flex;justify-content:space-between; margin-bottom:22*$base;
+  .user { display: flex;
+    p { font-size:29*$base; color: $color-font-04; }
+    span { font-size:22*$base; color:$color-font-05; }
+  }
+  .avatar { width:76*$base; height:76*$base; background-color:#999; background-size:cover; border-radius: 50%; margin-right:18*$base;
+  }
+}
+.xzs-editor { margin-bottom:30*$base; }
+.xzs-editor-text { line-height: 1.8; }
+.xzs-editor-map { width:100%; }
+.xzs-editor-img { line-height: 0; }
+.xzs-editor-file { width: 100%; }
+.xzs-editor-video { width: 100%; }
+.xzs-editor-audio { width: 100%; }
+.xzs-editor-text { width: 100%; }
+
+/*点赞+-1动画*/
+@keyframes move{
+  from{
+    font-size: 16px;
+    opacity: 1;
+  }
+  to{
+    font-size: 10px;
+    opacity: 0;
+  }
+}
+span.like{
+  position: fixed;
+  z-index: 9999;
+  color: red;
+  animation:move .5s normal;
+}
+
+/*遮罩层*/
+.xzs-mask { position:fixed; top:0; left: 0; right:0; bottom:0; z-index: 999; width:100%; height:100%; background-color:#000; opacity: .6; }
+.z-index-9 { z-index: 9; }
+.z-index-999 { z-index: 999; }
+
+/*重写muse-ui样式*/
+.header-bar {
+  position: fixed; width: 100%; height: 148*$base; top:0; left:0; padding:0;
+}
+.header-bar-red {
+  background-color:#d0000f;
+}
+.mu-appbar { background-color:#d0000f; position: fixed; width: 100%; height: 108*$base; top:40*$base; left:0; padding:0; }
+.mu-paper-1 { box-shadow:0px 2px 3px #f3f3f3, 0px 2px 3px #f3f3f3 }
+.mu-refresh-control { color: $color-base-red; }
+.mu-circle-spinner { border-color: $color-base-red; }

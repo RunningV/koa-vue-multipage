@@ -1,0 +1,12 @@
+/*重置mu-flat-button按钮样式*/
+.mu-flat-button{
+  min-width: inherit;
+  .mu-flat-button-label{
+    margin: 0;
+    padding: 0;
+  }
+  .mu-icon{
+    margin: 0;
+    padding: 0;
+  }
+}

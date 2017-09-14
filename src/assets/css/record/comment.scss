@@ -1,0 +1,42 @@
+@import '../variable.scss';
+
+html,body,.page-comment { height: 100%; }
+.mu-text-field-focus-line { background-color:$color-base-red; }
+.btn-gray { background-color:#cdcdcd; color: #fff; }
+.btn-red { background-color:#d7000f; color: #fff; }
+
+.page-comment {
+  background-color:#f3f3f3;
+  .mu-refresh-control { margin-top:10*$base; }
+  .mu-flat-button-label { padding:0; }
+  .comment-content {
+    padding:164*$base 0 102*$base 0; height: 100%;
+    .header { height:148*$base; position: fixed; width: 100%; top:0; left:0; padding:0; z-index: 9;}
+    .body { 
+      height:100%;
+      .demo-refresh-container{
+        background-color:#fff;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        .body-p33 { 
+          padding:0 34*$base; margin-bottom:34*$base;
+          > div { border-bottom: 1px solid #ebebeb; padding:34*$base 0 20*$base; }
+        }
+      }
+    }
+    .comment-text { color:#333; font-size:32*$base;
+      span:first-child { color: $color-font-02; }
+    }
+  }
+  .footer {
+    display:flex; position: fixed; bottom:0; left: 0; width:100%; padding:0 34*$base; z-index: 9;height: 102*$base; background-color:#f4f4f4; border-top:1px solid #ebebeb; border-bottom:1px solid #ebebeb;
+    .mu-text-field-content { margin:15*$base 0; padding:0; }
+    .comment-textarea { display: block; height:100%;  }
+    .mu-raised-button { min-width: auto; margin-top:15*$base; width: 92*$base; height:66*$base; line-height: 66*$base; }
+    .mu-text-field { width: 100%; margin-right:30*$base; }
+    .mu-raised-button-label { padding:0; }
+    .mu-text-field-hint, .mu-text-field-input { font-size:14px; }
+  }
+}

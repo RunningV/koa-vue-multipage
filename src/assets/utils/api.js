@@ -30,11 +30,6 @@ axios.interceptors.response.use((res) =>{
   return Promise.reject(error);
 });
 
-// 接口列表
-export const apiList = {
-  getInboxMessage:"/timeline/getInboxMessage"
-} 
-
 export function fetchCommonAPI (url, params) {
   return axios.post(url, params).then(res => {
     return res.data
